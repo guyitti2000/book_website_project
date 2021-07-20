@@ -1,0 +1,11 @@
+Things I want to inlcude:
+1. Title
+2. Navbar (links to various sections of this website and will go to a new page)
+    a. info page about me
+	b. my top books of the month
+	c. books I am currently reading
+	d. books I want to read
+3. Main page: pictures, and news (add design stuff)
+
+
+
