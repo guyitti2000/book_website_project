@@ -1,6 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 header{
 	text-align: center;
 }
+
 h1 {
 	width: 50%;
 	border: 5px solid black;
@@ -20,32 +25,34 @@ figure .headerPic {
 	border: 5px solid black;
 	transition: all 1s;
 }
+
 figure .headerPic:hover{
 	transform: scale(2) rotate(720deg);
-
 }
+
 nav ul {
 	list-style-type: none;
 	margin: 0 auto;
 	padding: 0;
 	overflow: hidden;
 	background-color: #333;
-	border: 15px solid black;
+	border: 10px solid black;
 	border-radius: 100%;
 	width: 40%;
-
 }
 
 nav ul li  {
 	display: inline-block;
 }
+
 nav ul li a {
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 20px 20px;
 	text-decoration: none;
 }
+
 nav ul li a:hover {
 	background-color: #111;
 	border-radius: 100%;
